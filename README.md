@@ -13,42 +13,42 @@
 
 <!----------------------------------------------------------------------------->
 
-[code_smells_badge]: https://sonarcloud.io/api/project_badges/measure?project=hummel009_BSOD_Simulator&metric=code_smells
+[code_smells_badge]: https://sonarcloud.io/api/project_badges/measure?project=hummel009_BSOD-Simulator&metric=code_smells
 
-[code_smells_link]: https://sonarcloud.io/summary/overall?id=hummel009_BSOD_Simulator
+[code_smells_link]: https://sonarcloud.io/summary/overall?id=hummel009_BSOD-Simulator
 
-[maintainability_rating_badge]: https://sonarcloud.io/api/project_badges/measure?project=hummel009_BSOD_Simulator&metric=sqale_rating
+[maintainability_rating_badge]: https://sonarcloud.io/api/project_badges/measure?project=hummel009_BSOD-Simulator&metric=sqale_rating
 
-[maintainability_rating_link]: https://sonarcloud.io/summary/overall?id=hummel009_BSOD_Simulator
+[maintainability_rating_link]: https://sonarcloud.io/summary/overall?id=hummel009_BSOD-Simulator
 
-[security_rating_badge]: https://sonarcloud.io/api/project_badges/measure?project=hummel009_BSOD_Simulator&metric=security_rating
+[security_rating_badge]: https://sonarcloud.io/api/project_badges/measure?project=hummel009_BSOD-Simulator&metric=security_rating
 
-[security_rating_link]: https://sonarcloud.io/summary/overall?id=hummel009_BSOD_Simulator
+[security_rating_link]: https://sonarcloud.io/summary/overall?id=hummel009_BSOD-Simulator
 
-[bugs_badge]: https://sonarcloud.io/api/project_badges/measure?project=hummel009_BSOD_Simulator&metric=bugs
+[bugs_badge]: https://sonarcloud.io/api/project_badges/measure?project=hummel009_BSOD-Simulator&metric=bugs
 
-[bugs_link]: https://sonarcloud.io/summary/overall?id=hummel009_BSOD_Simulator
+[bugs_link]: https://sonarcloud.io/summary/overall?id=hummel009_BSOD-Simulator
 
-[vulnerabilities_badge]: https://sonarcloud.io/api/project_badges/measure?project=hummel009_BSOD_Simulator&metric=vulnerabilities
+[vulnerabilities_badge]: https://sonarcloud.io/api/project_badges/measure?project=hummel009_BSOD-Simulator&metric=vulnerabilities
 
-[vulnerabilities_link]: https://sonarcloud.io/summary/overall?id=hummel009_BSOD_Simulator
+[vulnerabilities_link]: https://sonarcloud.io/summary/overall?id=hummel009_BSOD-Simulator
 
-[duplicated_lines_density_badge]: https://sonarcloud.io/api/project_badges/measure?project=hummel009_BSOD_Simulator&metric=duplicated_lines_density
+[duplicated_lines_density_badge]: https://sonarcloud.io/api/project_badges/measure?project=hummel009_BSOD-Simulator&metric=duplicated_lines_density
 
-[duplicated_lines_density_link]: https://sonarcloud.io/summary/overall?id=hummel009_BSOD_Simulator
+[duplicated_lines_density_link]: https://sonarcloud.io/summary/overall?id=hummel009_BSOD-Simulator
 
-[reliability_rating_badge]: https://sonarcloud.io/api/project_badges/measure?project=hummel009_BSOD_Simulator&metric=reliability_rating
+[reliability_rating_badge]: https://sonarcloud.io/api/project_badges/measure?project=hummel009_BSOD-Simulator&metric=reliability_rating
 
-[reliability_rating_link]: https://sonarcloud.io/summary/overall?id=hummel009_BSOD_Simulator
+[reliability_rating_link]: https://sonarcloud.io/summary/overall?id=hummel009_BSOD-Simulator
 
-[quality_gate_status_badge]: https://sonarcloud.io/api/project_badges/measure?project=hummel009_BSOD_Simulator&metric=alert_status
+[quality_gate_status_badge]: https://sonarcloud.io/api/project_badges/measure?project=hummel009_BSOD-Simulator&metric=alert_status
 
-[quality_gate_status_link]: https://sonarcloud.io/summary/overall?id=hummel009_BSOD_Simulator
+[quality_gate_status_link]: https://sonarcloud.io/summary/overall?id=hummel009_BSOD-Simulator
 
-[technical_debt_badge]: https://sonarcloud.io/api/project_badges/measure?project=hummel009_BSOD_Simulator&metric=sqale_index
+[technical_debt_badge]: https://sonarcloud.io/api/project_badges/measure?project=hummel009_BSOD-Simulator&metric=sqale_index
 
-[technical_debt_link]: https://sonarcloud.io/summary/overall?id=hummel009_BSOD_Simulator
+[technical_debt_link]: https://sonarcloud.io/summary/overall?id=hummel009_BSOD-Simulator
 
-[lines_of_code_badge]: https://sonarcloud.io/api/project_badges/measure?project=hummel009_BSOD_Simulator&metric=ncloc
+[lines_of_code_badge]: https://sonarcloud.io/api/project_badges/measure?project=hummel009_BSOD-Simulator&metric=ncloc
 
-[lines_of_code_link]: https://sonarcloud.io/summary/overall?id=hummel009_BSOD_Simulator
+[lines_of_code_link]: https://sonarcloud.io/summary/overall?id=hummel009_BSOD-Simulator
