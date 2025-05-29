@@ -22,7 +22,7 @@ java {
 }
 
 application {
-	mainClass = "com.github.hummel.bsod.MainKt"
+	mainClass = "com.github.hummel.bsodsim.MainKt"
 }
 
 tasks {
@@ -30,7 +30,7 @@ tasks {
 		manifest {
 			attributes(
 				mapOf(
-					"Main-Class" to "com.github.hummel.bsod.MainKt"
+					"Main-Class" to "com.github.hummel.bsodsim.MainKt"
 				)
 			)
 		}

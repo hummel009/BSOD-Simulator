@@ -1,4 +1,4 @@
-package com.github.hummel.bsod
+package com.github.hummel.bsodsim
 
 import java.awt.*
 import javax.swing.JFrame
