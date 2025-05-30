@@ -35,7 +35,7 @@ class GUI : JFrame() {
 
 		val fontSize = round(screenWidth.toDouble() * 39.0 / 1920.0).toFloat()
 		var font = Font.createFont(
-			Font.TRUETYPE_FONT, BSOD::class.java.getResourceAsStream(
+			Font.TRUETYPE_FONT, GUI::class.java.getResourceAsStream(
 				"/lucidaconsole.ttf"
 			)
 		)
