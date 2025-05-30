@@ -9,7 +9,7 @@ import kotlin.math.round
 fun main() {
 	EventQueue.invokeLater {
 		try {
-			val frame = BSOD()
+			val frame = GUI()
 			frame.isVisible = true
 		} catch (e: Exception) {
 			e.printStackTrace()
@@ -17,7 +17,7 @@ fun main() {
 	}
 }
 
-class BSOD : JFrame() {
+class GUI : JFrame() {
 	init {
 		val screenSize = Toolkit.getDefaultToolkit().screenSize
 		val screenWidth = screenSize.width
