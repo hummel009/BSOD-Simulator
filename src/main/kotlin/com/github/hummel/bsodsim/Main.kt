@@ -9,7 +9,7 @@ import kotlin.math.round
 fun main() {
 	EventQueue.invokeLater {
 		try {
-			val frame = GUI()
+			val frame = BSODSimulator()
 			frame.isVisible = true
 		} catch (e: Exception) {
 			e.printStackTrace()
@@ -17,7 +17,29 @@ fun main() {
 	}
 }
 
-class GUI : JFrame() {
+class BSODSimulator : JFrame() {
+	var bsodText: String = """
+		A problem has been detected and Windows has been shut down to prevent damage to your computer.
+		
+		PROCESS_INITIALIZATION_FAILED
+		
+		If this is the first time you've seen this Stop error screen, restart your computer. If this screen appears again, follow these steps:
+		
+		Check to make sure any new hardware or software is properly installed. If this is a new installation, ask your hardware or software manufacturer for any Windows updates you might need.
+		
+		If problems continue, disable or remove any newly installed harware or software. Disable BIOS memory options such as caching or shadowing. If you need to use Safe Mode to remove or disable components, restart your computer, press F8 to select Advanced Startup Options, and then select Safe Mode.
+		
+		Technical information:
+		
+		*** STOP: 0x00000060 (0xF2N094c2,0x00000001,0x4FQ1ccc7,0x0000000)
+		
+		***       4FQ.sys - Address FWTV1999 base at 4s4M5000, Datestamp 4d5dd88c
+		
+		Beginning dump of physical memory
+		Physical memory dump complete
+		Contact your system administrator or technical support for further assistance.
+		""".trimIndent()
+
 	init {
 		val screenSize = Toolkit.getDefaultToolkit().screenSize
 		val screenWidth = screenSize.width
@@ -28,14 +50,14 @@ class GUI : JFrame() {
 		isAlwaysOnTop = true
 		size = screenSize
 
-		val textArea = object : JTextArea(win7String) {
+		val textArea = object : JTextArea(bsodText) {
 			override fun getHighlighter(): Highlighter? = null
 			override fun getCaretColor(): Color = Color(0, 0, 130)
 		}
 
 		val fontSize = round(screenWidth.toDouble() * 39.0 / 1920.0).toFloat()
 		var font = Font.createFont(
-			Font.TRUETYPE_FONT, GUI::class.java.getResourceAsStream(
+			Font.TRUETYPE_FONT, BSODSimulator::class.java.getResourceAsStream(
 				"/lucidaconsole.ttf"
 			)
 		)
@@ -62,25 +84,3 @@ class GUI : JFrame() {
 		setLocationRelativeTo(null)
 	}
 }
-
-var win7String: String = """
-	A problem has been detected and Windows has been shut down to prevent damage to your computer.
-	
-	PROCESS_INITIALIZATION_FAILED
-	
-	If this is the first time you've seen this Stop error screen, restart your computer. If this screen appears again, follow these steps:
-	
-	Check to make sure any new hardware or software is properly installed. If this is a new installation, ask your hardware or software manufacturer for any Windows updates you might need.
-	
-	If problems continue, disable or remove any newly installed harware or software. Disable BIOS memory options such as caching or shadowing. If you need to use Safe Mode to remove or disable components, restart your computer, press F8 to select Advanced Startup Options, and then select Safe Mode.
-	
-	Technical information:
-	
-	*** STOP: 0x00000060 (0xF2N094c2,0x00000001,0x4FQ1ccc7,0x0000000)
-	
-	***       4FQ.sys - Address FWTV1999 base at 4s4M5000, Datestamp 4d5dd88c
-	
-	Beginning dump of physical memory
-	Physical memory dump complete
-	Contact your system administrator or technical support for further assistance.
-	""".trimIndent()
